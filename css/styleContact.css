@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contact {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #212529;
+    background-image: url(../img/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+#form {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2vmax;    
+}
+
+.input {
+    padding: 2vw;
+    border: 1px solid #ced4da;
+    border-radius: 0.3em;
+    font-family: 'Roboto Slab',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    font-size: 2.5vw;
+}
+
+.message {
+    grid-column: 2;
+    grid-row: 1/4;
+}
+
+.input:focus {
+   border: 1px solid #fed136;   
+}
+
+input::placeholder, textarea::placeholder {
+    color: #ced4da;
+    font-weight: 700;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    opacity: 1;    
+}
+
+#submitBtn {
+    padding: 2vw;
+    border-radius: 0.3em;
+    background-color: #fdd74d;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    text-align: center;
+    font-size: 2vw;  
+    border: none;
+}
+
+#btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+#submitBtn:hover {
+    background-color: #fed136;
+}
+
+#submitBtn:focus {
+    box-shadow: 0 0 0 .2rem rgba(254,209,55,.5)
+}
+
+.textHead, .headingTxt {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto Slab',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    font-weight: 700;
+    font-size: 2.5vw;   
+         
+}
+
+.headingTxt h6{
+    font-weight: 300;
+    font-style: italic;
+    color: #6c757d; 
+    margin-bottom: 5vw;
+}
+
+@media screen and (max-width: 992px){
+    .form  {
+            grid-template-columns: 1fr;
+    }
+    .message {
+        grid-column: 1;
+        grid-row: 4;
+        height: 10em;
+    } 
+ } 
+ 
