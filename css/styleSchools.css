@@ -1,10 +1,15 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
 }
 
 body {
     background-color: #f8f9fa;    
+    margin-left: 7em;
+    margin-right: 7em;
+} */
+
+.schoolSection {       
     margin-left: 7em;
     margin-right: 7em;
 }
@@ -51,24 +56,25 @@ body {
     
  } 
 
- .imgDiv h4 {
-    position: absolute;
+ .imgSchoolDiv h4 {
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: 700;
     font-size: 2vw;
-     text-align: center;
-     color: #f8f9fa;
+    text-align: center;
+    color: #f8f9fa;
  }
 
- .imgDiv.buttonSchools {
-    left: 20%;
+ .imgSchoolDiv.buttonSchools {
+     left: 20%;
      width: 20vw;
      height: 20vw;
  }
 
-.imgDiv {
+.imgSchoolDiv {
+    /* width: 50%;      */
     position: relative;
     display: flex;
     background-color: #fed136;
@@ -79,7 +85,8 @@ body {
 }
 
 .imgSchools{
-    width: 100%;     
+    width: 100%;  
+    height: 100%;    
     z-index: 2;
 }
 
@@ -111,11 +118,11 @@ body {
 }
 
 
-a {
+.schools a {
     text-decoration: none;
 }
 
-a:visited {
+.schoolsa:visited {
     color: #212529;
 }
 

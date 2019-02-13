@@ -7,10 +7,10 @@ function rotate() {
     function getElements(value, index, array) {
         var imgId = document.getElementById(value);
         imgId.addEventListener('click', function () {
-            if (this.getAttribute("class") == "imgDiv chg") {
-                this.setAttribute("class", "imgDiv");
+            if (this.getAttribute("class") == "imgTutorialDiv chg") {
+                this.setAttribute("class", "imgTutorialDiv");
             } else {
-                this.setAttribute("class", "imgDiv chg");
+                this.setAttribute("class", "imgTutorialDiv chg");
             }
         });
     }
