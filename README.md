@@ -20,7 +20,9 @@ Back-End:
 - Node.js
    +express
    +exports
+   +handlebars
    +path
    +body-parser
-   + nodemailer
+   +nodemailer
    +nodemailer-smtp-transport
+   +router
