@@ -1,7 +1,7 @@
 # DanzaLatinaNZ
 Danza Latina website project
 
-www.danzalatina.nz 
+http://www.danzalatina.nz/
 
 Features:
 - Responsive design
