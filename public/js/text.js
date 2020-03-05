@@ -1,7 +1,7 @@
-var candy = ['life', 'Life', '0', '1', '90', '9', 'd', '!', 'scooter', 'ance', 'i', 's'];
+var candy = ['life'];
 var door = candy;
 var g = '@gmail.com';
-var mail = 'danzalatina.nz.ack';
+var mail = 'danzalatina.nz';
 
 
 module.exports.door = door;
