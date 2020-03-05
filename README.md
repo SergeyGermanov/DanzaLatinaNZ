@@ -24,6 +24,3 @@ Back-End:
    +body-parser
    + nodemailer
    +nodemailer-smtp-transport
-- GIT was used for version control.
-
-I have started my own project to help beginners in New Zealand Latin Dance community to excel on their dance pathway. 
