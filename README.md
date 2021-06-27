@@ -1,7 +1,7 @@
 # DanzaLatinaNZ
 Danza Latina website project
 
-http://www.danzalatina.nz/
+https://danzalatina.herokuapp.com
 
 Features:
 - Responsive design
